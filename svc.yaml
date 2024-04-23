@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: pet-deploy
-  name: prod-svc
+  name: pinktomato-svc
   #namespace: pet
 spec:
   ports:
@@ -11,5 +11,5 @@ spec:
     protocol: TCP
     targetPort: 8080
   selector:
-    app: pet-deploy
+    app: pinktomato-deploy
   type: NodePort
