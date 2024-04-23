@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: pet-deploy
+    app: pinktomato-deploy
   name: pinktomato-svc
   #namespace: pet
 spec:
