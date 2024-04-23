@@ -15,5 +15,5 @@ spec:
         app: pinktomato-deploy
     spec:
       containers:
-      - image: tomato157/furbabies:latest
+      - image: tomato157/furbabies:28
         name: pet
