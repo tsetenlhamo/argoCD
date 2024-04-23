@@ -2,17 +2,17 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: pet-deploy
-  name: tomato-deploy
+    app: pinktomato-deploy
+  name: pinktomato-deploy
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: pet-deploy
+      app: pinktomato-deploy
   template:
     metadata:
       labels:
-        app: pet-deploy
+        app: pinktomato-deploy
     spec:
       containers:
       - image: tomato157/furbabies:latest
